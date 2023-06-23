@@ -1,0 +1,30 @@
+.contact {
+    height: 100%;
+    padding-top: 40vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: 
+    linear-gradient(to right, rgba($primary-color, 0.9), rgba($primary-color, 0.3)),
+    url('https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bWFufGVufDB8fDB8fHww&auto=format&fit=crop&w=1000&q=60') center top;
+    background-size: cover;
+    
+    h2{
+        font-size: 3rem;
+        margin-bottom: 2rem;
+    }
+
+    &_list {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 2rem;
+        font-size: 1.5rem;
+    }
+
+    .social-icons {
+        position: initial;
+        margin-top: 2rem;
+    }
+    
+}
